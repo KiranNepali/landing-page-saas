@@ -116,8 +116,8 @@ export const Pricing = () => {
                   {buttonText}
                 </button>
                 <ul className="flex-col gap-5 flex mt-8">
-                  {features.map((id, feature) => (
-                    <li key={id} className="text-sm flex items-center gap-4">
+                  {features.map((feature) => (
+                    <li key={feature} className="text-sm flex items-center gap-4">
                       <CheckIcon className="w-6 h-6 " />
                       <span>{feature}</span>
                     </li>
